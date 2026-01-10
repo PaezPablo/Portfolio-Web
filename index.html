@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
+    <title>Pablo Paez - Portfolio </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <canvas id="starsCanvas"></canvas>
+
+    <nav class="navbar">
+        <div class="logo">PP-<span>04</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact" class="btn-portal">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hola, soy <span class="highlight" id="typewriter"></span></h1>
+            <p>Desarrollador Front-End Junior</p>
+            <a href="#projects" class="cta">Ver mis proyectos mas recientes</a>
+        </div>
+
+        <div class="portal-container">
+            <div class="portal"></div>
+        </div>
+    </header>
+
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Proyectos<span> Seleccionados</span></h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/Rick and Morty Web.png" alt="Rick and Morty API">
+                    <div class="project-overlay">
+                        <a href="https://paezpablo.github.io/Proyectos-JS/05-Rick-and-Morty/" class="view-btn">Ver
+                            Proyecto</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Rick and Morty Web</h3>
+                    <p>SPA que consume una API con paginacion y busqueda global </p>
+
+                    <div class="tech-stack">
+                        <span>JavaScript</span>
+                        <span>Api Rest</span>
+                        <span>CSS3</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/Tinder Swipe.png" alt="Efecto Swipe de Tinder">
+                    <div class="project-overlay">
+                        <a href="https://paezpablo.github.io/Proyectos-JS/01-Tinder-Swipe/" class="view-btn">Ver
+                            Proyecto</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Tinder Swipe Interface</h3>
+                    <p>Interfaz interactiva desarrollada con Vanilla JavaScript enfocada en la experiencia de usuario
+                    </p>
+                    <div class="tech-stack">
+                        <span>JavaScript ES6+</span>
+                        <span>CSS Variables </span>
+                        <span>DOM Manipulation</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/Pokedex.png" alt="Pokedex">
+                    <div class="project-overlay">
+                        <a href="https://paezpablo.github.io/Proyectos-JS/03-Pokedex/" class="view-btn">Ver Proyecto</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>PokéDex PokéAPI</h3>
+                    <p>Aplicación de consulta de datos que consume la PokéAPI.</p>
+
+                    <div class="tech-stack">
+                        <span>Fetch API</span>
+                        <span>Async/Await</span>
+                        <span>CSS Grid/Flexbox</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./images/Arkanoid.png" alt="Arkanoid">
+                    <div class="project-overlay">
+                        <a href="https://paezpablo.github.io/Proyectos-JS/02-Arkanoid-Game/" class="view-btn">Ver
+                            Proyecto</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Retro Arkanoid Canvas</h3>
+                    <p>Clon del clásico juego desarrollado íntegramente con la API de Canvas</p>
+
+                    <div class="tech-stack">
+                        <span>HTML5 Canvas</span>
+                        <span>JavaScript Logic</span>
+                        <span>Game Loop</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card proximamente">
+                <div class="project-image">
+                    <img src="" alt="">
+                </div>
+
+                <div class="project-info">
+                    <h3>Proximamente...</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Sobre <span>mí</span></h2>
+                <p>Desarrollador Frontend enfocado en la creación de interfaces dinámicas y precisas. Con una base
+                    sólida en JavaScript, actualmente especializándome en React para construir soluciones web escalables
+                    y centradas en el usuario.
+                </p>
+            </div>
+
+            <div class="skills-container">
+                <h3>Habilidades Técnicas</h3>
+                <div class="skill-bar">
+                    <p>JavaScript</p>
+                    <div class="bar">
+                        <div class="progress js"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>HTML/CSS</p>
+                    <div class="bar">
+                        <div class="progress css"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <p>API Rest</p>
+                    <div class="bar">
+                        <div class="progress api"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">PP-<span>04</span></div>
+                <p>Desarrollador Front-End especializado en la creación de interfaces dinámicas y experiencias de
+                    usuario inmersivas.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="https://github.com/PaezPablo?tab=repositories" target="_blank">Repositorios</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Conectemos</h4>
+                <div class="social-icons">
+                    <a href="https://github.com/PaezPablo" target="_blank" title="GitHub"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/paezpablopy/" target="_blank" title="LinkedIn"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:pablopaez9612@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="./images/Pablo_Páez_CV.pdf" target="_blank" title="CV"><i
+                            class="fa-solid fa-file-pdf"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2024 Pablo Paez</p>
+        </div>
+    </footer>
+
+    <script src="stars.js"></script>
+</body>
+
+</html>
