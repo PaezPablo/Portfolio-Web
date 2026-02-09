@@ -65,11 +65,8 @@ window.onload = () => {
 const portal = document.querySelector('.portal');
 
 const dimensiones = [
-    "https://paezpablo.github.io/Proyectos-JS/05-Rick-and-Morty/",
     "https://paezpablo.github.io/Proyectos-JS/01-Tinder-Swipe/",
-    "https://paezpablo.github.io/Proyectos-JS/03-Pokedex/",
-    "https://paezpablo.github.io/Proyectos-JS/02-Arkanoid-Game/",
-    "https://paezpablo.github.io/Proyectos-JS/04-Efecto-Parallax/"
+    "https://paezpablo.github.io/Proyectos-JS/07-BlackJack/"
 ];
 
 if (portal) {
