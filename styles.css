@@ -342,7 +342,7 @@ body {
     border-radius: 50px;
     color: var(--rick-cyan);
 }
-
+/* 
 @media (max-width: 768px) {
     .hero {
         flex-direction: column-reverse;
@@ -361,7 +361,7 @@ body {
         width: 200px;
         height: 200px;
     }
-}
+} */
 
 .about-section {
     padding: 8rem 10%;
@@ -580,9 +580,9 @@ body {
     background: transparent;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .footer {
         margin-top: 0;
         padding-top: 60px;
     }
-}
+} */
